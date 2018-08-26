@@ -7426,7 +7426,7 @@ public class Expression {
 			addFunctionsKeyWords();
 			addConstantsKeyWords();
 		}
-		java.util.Collections.sort(keyWordsList, new KwTypeComparator() );
+		//java.util.Collections.sort(keyWordsList, new KwTypeComparator() );
 		String line;
 		for (KeyWord kw : keyWordsList) {
 			line = 	"str=" + kw.wordString + " " +
